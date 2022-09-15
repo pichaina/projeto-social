@@ -43,3 +43,23 @@ iframe#tela { /*code p/ dentro do celular*/
     width: 265px;
     height: 466px;
 }
+
+section#redes-sociais {
+    text-align: right; 
+}
+
+section#redes-sociais img {
+    width: 50px; /*tamano das logos*/
+    margin: 10px;
+    margin-right: 24px;
+    border-radius: 50%; /*arredondamento das logos*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);/*dir baixo */
+    box-sizing: border-box; /*as logos não mechem*/
+}
+
+section#redes-sociais img:hover { /*passando o mouse*/
+    border: 2px solid rgba(255, 255, 255, 0.603); /*coloca borda branca nas logos mas elas mechem*/
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);/*quando levanta a sombra fica*/
+    transition: transform .4s, /*border .8s*/;/*delay na logo*/
+}
