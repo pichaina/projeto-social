@@ -35,3 +35,11 @@ section#telefone {
     background: url('../imagens/frame-iphone.png') no-repeat;
     /*colocar background antes da url e achar o tamanho ideal*/
 }
+
+iframe#tela { /*code p/ dentro do celular*/
+    position: relative;
+    top: 79px;
+    left: 22px;
+    width: 265px;
+    height: 466px;
+}
