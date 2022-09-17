@@ -29,19 +29,19 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%); 
 
-    height: 620px;
+    height: 600px;
     width: 308px;
     /*background-color: blue; para posicionar a img*/
-    background: url('../imagens/frame-iphone.png') no-repeat;
+    background: url('../imagens/frame-iphone2.png') no-repeat;
     /*colocar background antes da url e achar o tamanho ideal*/
 }
 
 iframe#tela { /*code p/ dentro do celular*/
     position: relative;
-    top: 79px;
+    top: 77px;
     left: 22px;
     width: 265px;
-    height: 466px;
+    height: 450px;
 }
 
 section#redes-sociais {
